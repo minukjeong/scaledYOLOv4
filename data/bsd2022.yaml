@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /home/mujung/pythonproject/bikeimage/train.txt  # 118k images
+val: /home/mujung/pythonproject/bikeimage/valid.txt  # 5k images
+test: /home/mujung/pythonproject/bikeimage/test.txt  # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 3
+
+# class names
+names: ['person', 'bicycle', 'motorcycle' ]
